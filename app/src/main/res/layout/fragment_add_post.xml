@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/postTitle"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:hint="type the title of the post here "
+        android:layout_height="50dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/postBody"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="type the body of a post here"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/postUserId"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:hint="type the post's user id here"/>
+
+    <Button
+        android:id="@+id/addPostBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Post"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+
+</LinearLayout>
